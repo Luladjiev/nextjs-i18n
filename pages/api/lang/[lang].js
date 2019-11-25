@@ -6,7 +6,6 @@ module.exports = (req, res) => {
             return res.end(JSON.stringify({ 'hello': 'Hallo' }));
         case 'en':
         default:
-            console.log('asd');
             return res.end(JSON.stringify({ 'hello': 'Hello world' }));
     }
 }
